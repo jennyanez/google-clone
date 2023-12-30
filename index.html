@@ -9,37 +9,46 @@
 <body>
   
     <header>
-        <nav>
-            <ul>
-                <li>Gmail</li>
-                <li>Imágenes</li>
-                <li><img src="img/icons8-menú-en-círculos-30.png" alt="" srcset=""></li>
-                <li><img src="img/photo_2023-12-27_20-04-04.jpg" width="50px" height="50px" alt="" srcset=""></li>
+        <nav class="nav-bar">
+            <ul class="nav-right-section">
+                <li><a href="https://www.gmail.com">Gmail</a></li>
+                <li><a href="https://www.google.com/imghp?hl=es-419&ogbl">Imágenes</a></li>
+                <li class="menu-icon"><a href="#"></a></li>
+                <li class="nav-bar_pic-link"><a href="#"><img src="https://lh3.googleusercontent.com/ogw/ANLem4amHgzG6X_rZMtT_e9JaGxzCgJ1qbE6xam79zrGOA=s32-c-mo" alt="" srcset=""></a></li>
             </ul>
         </nav>
     </header>
    
     <main>
-        <div>
-            <div>
+        <section class="main-logo">
                 <img src="img/googlelogo_color_272x92dp.png" alt="" srcset="">
+        </section>
+            
+        <section class="main-input">
+            <div class="main-input-container">
+                <span class="search-item">
+                    
+                </span>
+                <input type="text" name="" id="">
+                <a class="micro-item" href="http://"></a>
+                <a class="img-item" href="http://"></a>
+                
             </div>
-            <div>
-                <input type="search" name="" id="">
-            </div>
-            <div>
+        </section>     
+            <section class="main-buttons">
                 <div>
                     <input type="button" value="Buscar con Google">
                 </div>
                 <div>
-                    <input type="button" value="Voy a tener suerte">
+                    <a href="https://www.google.com/doodles"><input type="button" value="Voy a tener suerte"></a>
                 </div>
-            </div>
+            </section>
+           
             <div>
                 <p>Ofrecido por Google en <a href="#">Español (Latinoamérica)</a> 
                 </p>
             </div>
-         </div>
+        
     </main>
    
     <footer>
@@ -47,20 +56,20 @@
             <div>
                 Cuba
             </div>
-            <div>
-                <div>
+            <div class="footer-down">
+                <div class="footer-left">
                     <ul>
-                        <li>Sobre Google</li>
-                        <li>Publicidad</li>
-                        <li>Negocios</li>
-                        <li>Cómo funciona la Búsqueda</li>
+                        <li><a href="https://about.google/?utm_source=google-CU&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a></li>
+                        <li><a href="https://ads.google.com/intl/es-419_cu/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a></li>
+                        <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Negocios</a></li>
+                        <li><a href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="footer-right">
                     <ul>
-                        <li>Privacidad</li>
-                        <li>Condiciones</li>
-                        <li>Preferencias</li>
+                        <li><a href="https://policies.google.com/privacy?hl=es-419&fg=1">Privacidad</a></li>
+                        <li><a href="https://policies.google.com/terms?hl=es-419&fg=1">Condiciones</a></li>
+                        <li><a href="#">Preferencias</a></li>
                     </ul>
                 </div>
             </div>
